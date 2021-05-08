@@ -1,0 +1,124 @@
+/*start header*/
+.active
+{
+    background-color:rgba(136, 14, 79,1.0);
+}
+.header .first-header
+{
+    background-image: linear-gradient(rgba(173, 20, 87,0.6),rgba(136, 14, 79,0.6));
+}
+.header .second-header .second-img
+{
+    background-image: linear-gradient(rgba(216, 27, 96,0.6),rgba(233, 30, 99,0.6)),url(../img/6.jpeg);
+    
+}
+.header .second-header .second-logo
+{
+    background-color: rgba(136, 14, 79,1.0);
+}
+.header .second-header .second-img .navigation .unorder
+{
+    background-color: rgba(197, 17, 98,0.6);
+}
+/*end header*/
+
+
+/*start login form*/
+.login-form
+{
+    margin-top: -186px;
+}
+.login-form h1
+{
+    text-transform: capitalize;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: rgba(136, 14, 79,1.0);
+    font-weight: bold;
+    font-size: 40px;
+}
+.login-form hr
+{
+    width: 1104px;
+    margin: auto;
+    margin-bottom: 46px;
+}
+.login-form .login-content
+{
+    background-color: rgba(240, 98, 146,1.0);
+    width: 60%;
+    margin: auto;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid rgba(136, 14, 79,1.0);
+}
+
+.login-form .login-content .fir
+{
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 157px;
+    margin-bottom: 21px;
+}
+.login-form .login-content .second
+{
+    margin-left: 183px;
+}
+.login-form .login-content label
+{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.login-form .login-content label::after
+{
+    content: "*";
+    color: #f00;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login-form .login-content .inp1
+{
+    width: 200px;
+    height: 27px;
+    border-radius: 30px;
+    text-indent: 15px;
+}
+.login-form .login-content .nu
+{
+    margin-left: 5px;
+}
+.login-form .login-content .submit
+{
+    margin-left: 444px;
+    margin-top: 21px;
+    width: 149px;
+    height: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px solid rgba(173, 20, 87,1.0);
+}
+.login-form .login-content .submit:hover
+{
+    background-color: rgba(240, 98, 146,1.0) ;
+}
+.login-form .form-img
+{
+    background-image: url(../img/53.png);
+    height: 100px;
+    background-size: cover;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 786px;
+    top: -183px;
+    border: 3px solid rgba(173, 20, 87,1.0);
+}
+.login-form .form-img:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+}
+/*end login form*/

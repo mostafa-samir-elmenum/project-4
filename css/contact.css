@@ -1,0 +1,250 @@
+.active
+{
+    background-color: #FF8F00;
+}
+/*start top nav*/
+.top-nav
+{
+    background-image: linear-gradient(rgba(255, 160, 0,0.6),rgba(255, 143, 0,0.6));
+}
+.top-nav .information h1
+{
+    color:#FF6F00;
+}
+/*end top nav*/
+
+/*start first contact*/
+.first-contact .con-img
+{
+    background-image: url("../img/36.jpg");
+    height: 300px;
+    background-position: top;
+    background-size: cover;
+}
+.first-contact .n h1
+{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.first-contact .n p
+{
+    text-transform: capitalize;
+    color: #FF6F00;
+    margin-bottom: 15px;
+}
+.first-contact .n ul
+{
+    list-style: none;
+}
+.first-contact .n ul li
+{
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.first-contact .n ul li i
+{
+    margin-right: 10px;
+    background-color: #FFB300;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+/*end first contact*/
+
+/*start contact info*/
+.contact-info .bbb
+{
+    background-color: #fff;
+    position: relative;
+    top: 45px;
+    z-index: 4;
+}
+
+.contact-info .bbb .v
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.contact-info .bbb .v h1
+{
+    color:#FFB300 ;
+    margin-bottom: 15px;
+}
+.contact-info .bbb .v:hover
+{
+    color: #fff;
+    background-color: #FFCA28;
+}
+/*end contact info*/
+
+/*start contact cover*/
+.contact-cover .cont-cov
+{
+    background-image:linear-gradient(rgba(255, 160, 0,0.6),rgba(255, 143, 0,0.6)),url("../img/39.jpg") ;
+    height: 450px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.contact-cover .cont-cov .cov-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.contact-cover .cont-cov .cov-content p
+{
+    margin-bottom: 20px;
+}
+
+/*end contact cover*/
+
+/*start customer say*/
+
+.customer-say .fd
+{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.customer-say .zx
+{
+    border: 3px solid #FF6F00;
+    background-color: #fff;
+    height: 220px;
+}
+.customer-say .zx:hover
+{
+    background-color: #FFC107;
+    color: #fff;
+    transform: rotate(45deg);
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+}
+.customer-say .zx h1,.customer-say .zx .depa
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+.customer-say .zx .comm
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: #666;
+    margin-bottom: 10px;
+}
+.customer-say .zx .cst-icon
+{
+    margin-left: 103px;
+}
+
+.customer-say .zx .cst-icon i
+{
+    color: #FFC107;
+}
+.customer-say .zx .cst-img-one
+{
+    background-image:url("../img/40.jpg") ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top;
+    margin: auto;
+    border: 3px solid #FF8F00;
+    position: relative;
+    top: -54px;
+}
+.customer-say .zx .cst-img-two
+{
+    background-image:url("../img/41.jpg") ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top;
+    margin: auto;
+    border: 3px solid #FF8F00;
+    position: relative;
+    top: -54px;
+}
+
+.customer-say .zx .cst-img-three
+{
+    background-image:url("../img/42.png") ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top;
+    margin: auto;
+    border: 3px solid #FF8F00;
+    position: relative;
+    top: -54px;
+}
+/*end customer say*/
+
+/*start contact form*/
+.contact-form
+{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.contact-form .dd h1
+{
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.contact-form .dd p
+{
+    text-transform: capitalize;
+    text-align: center;
+    color: #FF8F00;
+}
+.contact-form .ww .form-control .input-form,.contact-form .ww .form-control .text-form
+{
+    border: 5px solid #FF8F00;
+}
+.contact-form .ww .form-control .submit
+{
+    width: 150px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    border: 5px solid #FF8F00;
+    margin-left: 360px;
+    background-color: #FFC107;
+}
+/*end contact form*/
+
+/*start */
+.abo-contact .con-us
+{
+  background-image:linear-gradient(rgba(255, 160, 0,0.6),rgba(255, 143, 0,0.6)),url("../img/35.jpg")
+}
+.abo-contact .con-us .con-content p
+{
+    color: #FF8F00;
+}
+.abo-contact .con-us .con-content .input1,.abo-contact .con-us .con-content .input2
+{
+    border: 5px solid #FF8F00;
+}
+.abo-contact .con-us .con-content .input2
+{
+    background-color:#FFC107 ;
+}
+
+.footer
+{
+    background-color: #FFC107;
+}

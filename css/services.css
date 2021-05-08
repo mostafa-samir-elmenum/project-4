@@ -1,0 +1,322 @@
+
+
+.top-nav
+{
+    background-image: linear-gradient(rgba(0, 131, 143,0.6),rgba(0, 172, 193,0.6));
+}
+.top-nav .information h1
+{
+    color: #006064;
+}
+
+.active
+{
+    background-color: #00838F;
+    color: #fff;
+}
+/*start services one*/
+.services-one
+{
+    margin-bottom: 60px;
+}
+.services-one .ser-p
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #00838F;
+}
+.services-one .ser-h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+
+.services-one .qw h1 
+{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.services-one .qw p
+{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #666;
+    margin-bottom: 70px;
+}
+.services-one .qw ul
+{
+    list-style: none;
+}
+.services-one .qw ul li
+{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.services-one .qw ul li i
+{
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: #00838F;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.services-one .rt
+{
+    overflow: hidden;
+}
+.services-one .rt 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.services-one .rt  .ser-one
+{
+    width: 47%;
+    border: 3px solid #00838F;
+}
+.services-one .rt  .ser-one:hover
+{
+    background-color: #18FFFF;
+    color: #fff;
+    transform: skewX(10deg);
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+}
+.services-one .rt  .ser-one .ser-one-img
+{
+    background-image: url("../img/45.jpg");
+    background-size: cover;
+    background-position: center;
+    height:170px;
+    margin-bottom: 20px;
+}
+
+.services-one .rt  .ser-one .ser-two-img
+{
+    background-image: url("../img/24.jpg");
+    background-size: cover;
+    background-position: center;
+    height:170px;
+    margin-bottom: 20px;
+}
+.services-one .rt  .ser-one h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.services-one .rt  .ser-one p
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: #666;
+    margin-bottom: 15px;
+}
+.services-one .rt  .ser-one .read
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: #00838F;
+}
+/*end services one*/
+
+
+/*start services two*/
+.services-two .ser-background
+{
+    background-image: linear-gradient(rgba(0, 131, 143,0.6),rgba(0, 172, 193,0.6)),url("../img/46.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.services-two .ser-background 
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+.services-two .ser-background .bg
+{
+    margin-bottom: 15px;
+    color: #006064;
+    font-weight: bold;
+}
+
+.services-two .ser-background .hg
+{
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.services-two .ser-background .bg2
+{
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.services-two .ser-background .tw
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.services-two .ser-background .tw .tw-icon
+{
+    position: relative;
+    left: 83px;
+    top: 13px;
+}
+
+.services-two .ser-background .tw .tw-icon i
+{
+    background-color: aqua;
+    color: #fff;
+    border-radius: 30px;
+}
+.services-two .ser-background .tw .tw-content h1
+{
+    margin-bottom: 15px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.services-two .ser-background .tw .tw-content p
+{
+    margin-left: 104px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.services-two .ser-background .tw .tw-content .read
+{
+    color: #006064;
+    font-weight: bold;
+}
+/*end services two*/
+
+/*start services three*/
+.services-three p
+{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:#006064 ;
+    margin-bottom: 15px;
+}
+.services-three h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 86px;
+}
+.services-three .xc
+{
+    margin-bottom: 80px;
+}
+
+.services-three .xc .o-img
+{
+    background-image: url("../img/47.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-bottom: 76px;
+    border-radius: 30px;
+    border: 8px solid #26C6DA;
+    transform: rotate(45deg);
+}
+
+.services-three .xc .t-img
+{
+    background-image: url("../img/48.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 30px;
+    border: 8px solid #26C6DA;
+    transform: skew(10deg, 10deg);
+}
+
+.services-three .xc .th-img
+{
+    background-image: url("../img/49.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 30px;
+    border: 8px solid #26C6DA;
+    transform: rotate(45deg);
+}
+
+.services-three .xc .fo-img
+{
+    background-image: url("../img/50.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    height: 250px;
+    border: 8px solid #26C6DA;
+    transform: rotate(45deg);
+}
+
+.services-three .xc .fi-img
+{
+    background-image: url("../img/51.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border: 8px solid #26C6DA;
+    border-radius: 30px;
+    transform: skew(10deg, 10deg);
+}
+
+.services-three .xc .si-img
+{
+    background-image: url("../img/52.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border: 8px solid #26C6DA;
+    border-radius: 30px;
+    transform: rotate(45deg);
+}
+
+.services-three .xc .ho:hover
+{
+    
+}
+/*start services three*/
+
+.abo-contact .con-us
+{
+    background-image: linear-gradient(rgba(0, 131, 143,0.6),rgba(0, 172, 193,0.6)),url(../img/35.jpg);
+}
+.abo-contact .con-us .con-content p
+{
+    color:#006064 ;
+}
+.abo-contact  .con-us .con-content .input1
+{
+    border: 5px solid #006064;
+}
+.abo-contact  .con-us .con-content .input2
+{
+    background-color:#006064 ;
+}
+
+.footer
+{
+    background-color:#006064 ;
+}

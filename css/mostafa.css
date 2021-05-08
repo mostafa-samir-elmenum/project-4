@@ -1,0 +1,411 @@
+/*start container*/
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+/*end container*/
+/*start container-full*/
+.container-full
+{
+    width: 100%;
+}
+/*end container-full*/
+
+/*start row section*/
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*end row section*/
+
+/*start column*/
+.col-1 /*column one*/
+{
+    width:7%;
+}
+
+.col-2 /*column two*/
+{
+    width:15;
+}
+
+.col-3 /*column three*/
+{
+    width:23%;
+}
+
+.col-4 /*column four*/
+{
+    width:31%;
+}
+
+.col-5 /*column five*/
+{
+    width:39%;
+}
+
+.col-6 /*column six*/
+{
+    width:48%;
+}
+
+.col-7 /*column siven*/
+{
+    width:56%;
+}
+
+.col-8 /*column eight*/
+{
+    width:64%;
+}
+
+.col-9 /*column nine*/
+{
+    width:73%;
+}
+
+.col-10 /*column ten*/
+{
+    width:81%;
+}
+
+.col-11 /*column eleven*/
+{
+    width:89%;
+}
+
+.col-12 /*column tew*/
+{
+    width:98%;
+}
+/*end column*/
+
+/*start button*/
+.btn-blue-rad /*blue button with radius */
+{
+    background-color:#0288D1;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+
+.btn-blue-rad:hover
+{
+      border-top: 5px solid #01579B;
+      border-bottom: 5px solid #01579B;
+}
+
+
+.btn-blue /*button with normal border*/
+{
+    background-color:#0288D1;
+    width: 200px;
+    height: 50px;
+    border: 5px solid #1565C0;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+    border-radius: 50px
+}
+
+.btn-blue:hover
+{
+      border-top: 5px solid #01579B;
+      border-bottom: 5px solid #01579B;
+}
+
+
+/*start red buuton*/
+.btn-red-rad /*red button with radius */
+{
+    background-color:#D50000;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+.btn-red-rad:hover
+{
+      border-top: 5px solid #B71C1C;
+      border-bottom: 5px solid #B71C1C;
+}
+
+
+.btn-red /*button with normal border*/
+{
+    background-color:#D50000;
+    width: 200px;
+    height: 50px;
+    border: 5px solid #C62828;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+    border-radius: 50px
+}
+
+.btn-red:hover
+{
+      border-top: 5px solid #B71C1C;
+      border-bottom: 5px solid #B71C1C;
+}
+
+
+/*start yellow button*/
+.btn-yellow-rad /*yellow button with radius */
+{
+    background-color:#FFD600;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+.btn-yellow-rad:hover
+{
+      border-top: 5px solid #F57F17;
+      border-bottom: 5px solid #F57F17;
+}
+
+
+.btn-yellow /*button with normal border*/
+{
+    background-color:#FFD600;
+    width: 200px;
+    height: 50px;
+    border:5px solid #F9A825;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+    border-radius: 50px
+}
+
+.btn-yellow:hover
+{
+      border-top: 5px solid #F57F17;
+      border-bottom: 5px solid #F57F17;
+}
+
+.btn-green-rad /*green button with radius */
+{
+    background-color:#00C853;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+.btn-green-rad:hover
+{
+      border-top: 5px solid #1B5E20;
+      border-bottom: 5px solid #1B5E20;
+}
+
+
+.btn-green /*button with normal border*/
+{
+    background-color:#00C853;
+    width: 200px;
+    height: 50px;
+    border: 5px solid #2E7D32;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+    border-radius: 50px
+}
+
+.btn-green:hover
+{
+      border-top: 5px solid #1B5E20;
+      border-bottom: 5px solid #1B5E20;
+}
+
+
+.btn-default-rad /*grey button with radius */
+{
+    background-color:#616161;
+    width: 200px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+.btn-default-rad:hover
+{
+      border-top: 5px solid #424242;
+      border-bottom: 5px solid #424242;
+}
+
+
+.btn-default /*button with normal border*/
+{
+    background-color:#616161;
+    width: 200px;
+    height: 50px;
+    border: 5px solid #212121;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11px;
+    border-radius: 50px
+}
+
+.btn-default:hover
+{
+      border-top: 5px solid  #424242;
+      border-bottom: 5px solid  #424242;
+}
+/*end button*/
+
+/*start list*/
+.unorder
+{
+    list-style-type: none;
+    display: flex;
+}
+.unorder li
+{
+    margin-left: 50px;
+}
+
+.unorder li a
+{
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #0D47A1;
+}
+
+.unorder li a:hover
+{
+    background-color: #1565C0;
+    color: #fff;
+    font-weight: bold;
+}
+/*end list*/
+
+/*start form*/
+.form-control .label-form
+{
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.form-control .input-form
+{
+    display: block;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 32px;
+    border-radius: 26px;
+    text-indent: 10px;
+    border: 5px solid #424242;
+    margin-left: 34px;
+}  
+.form-control .text-form
+{
+    display: block;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 71px;
+    border-radius: 26px;
+    text-indent: 10px;
+    border: 5px solid #424242;
+    margin-left: 34px;
+}
+
+/*end form*/
+
+
+/*start footer*/
+.footer-logo
+{
+    background-color: #1E88E5;
+    color: #fff;
+}
+.footer-logo .fo-logo
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo .fo-logo h1
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #0D47A1;
+    width: 65px;
+    height: 42px;
+    border-radius: 50%;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer-logo .fo-logo p
+{
+    font-size: 25px;
+    margin-left: 53px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+
+}
+/*end footer*/
+
+/*start our text*/
+.center
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.center-main
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 15px;
+}

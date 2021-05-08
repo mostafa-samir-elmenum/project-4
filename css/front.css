@@ -1,0 +1,708 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #E0E0E0;
+}
+.active
+{
+    background-color: #42A5F5;
+}
+/*start header*/
+/*start top nav*/
+.top-nav
+{
+    overflow: hidden;
+}
+.top-nav div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav .top-nav-icon i
+{
+    margin-left: 20px;
+    color: #283593;
+}
+.top-nav .top-nav-link
+{
+    overflow: hidden;
+    margin-top: 7px;
+}
+.top-nav .top-nav-link ul
+{
+    list-style: none;
+}
+.top-nav .top-nav-link ul li
+{
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.top-nav .nav-top-info
+{
+    margin-right: 85px;
+    margin-top: 7px;
+}
+.top-nav .nav-top-info i
+{
+    color: #283593;
+    margin-right: 5px;
+}
+.top-nav .nav-top-info span
+{
+    margin-right: 5px;
+}
+/*end top nav*/
+.header
+{
+
+}
+.header .first-header
+{
+    background-image: linear-gradient(rgba(40, 53, 147,0.5),rgba(92, 107, 192,0.5));
+    height: 300px;
+}
+.header .second-header
+{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 256px;
+}
+.header .second-header h1
+{
+    text-transform: capitalize;
+    color: #fff;
+}
+.header .second-header .second-img
+{
+    background-image:linear-gradient(rgba(57, 73, 171,0.5),rgba(63, 81, 181,0.5)), url("../img/6.jpeg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+.header .second-header .second-logo
+{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(40, 53, 147,0.6);
+    color: #fff;
+    transform: rotateZ(45deg);
+    position: absolute;
+    right: 38px;
+    top: -17px;
+}
+.header .second-header .second-logo h3
+{
+    transform: rotateZ(-45deg);
+    margin-top: 37px;
+    padding-left: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.header .second-header .second-img
+{
+    position: relative;
+}
+.header .second-header .second-img .img-text 
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ .header .second-header .second-img .img-text p
+ {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+ }
+ .header .second-header .second-img .img-text p::before
+ {
+    content: "________";
+    margin-left: -222px;
+    font-size: 19px;
+    font-weight: bold;
+ }
+
+.header .second-header .second-img .navigation .unorder
+{
+position: relative;
+top: 362px;
+
+background-color: rgba(48, 79, 254,0.6);
+color: #fff;
+
+}
+.header .second-header .second-img .navigation .unorder li:last-child
+{
+    margin-top: 4px;
+    margin-left: 104px;
+    font-size: 20px;
+
+}
+.header .second-header .second-img .navigation .unorder li:last-child::after
+{
+    content:"search";
+}
+.header .second-header .second-img .navigation .unorder li a
+{
+    color: #fff;
+}
+.header .second-header .second-img .navigation .unorder li a:hover
+{
+    background-color: rgba(26, 35, 126,1.0);
+}
+/*end header*/
+
+
+/*start project video*/
+.project-video
+{
+    margin-top: -182px;
+    margin-bottom: 90px;
+}
+.project-video .youtube .one
+{
+    transform: skewX(10deg);
+    background-color: rgba(48, 63, 159,1.0);
+}
+.project-video .youtube .one iframe
+{
+    width: 100%;
+    transform: translate(10px,10px);
+    position: relative;
+    z-index: 3;  
+}
+.project-video .second
+{
+    overflow: hidden;
+}
+
+.project-video .second p:nth-child(1)
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: rgba(26, 35, 126,1.0);
+}
+.project-video .second h1
+{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.project-video .second .last
+{
+    text-transform: capitalize;
+    font-size: 17px;
+    text-align: justify;
+    color: #9E9E9E;
+}
+
+.project-video .second ul
+{
+    float: left;
+    margin-top: 25px;
+    margin-right: 50px;
+    list-style-type: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.project-video .second ul li
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.project-video .second ul li i
+{
+    color:#1A237E ;
+    margin-right: 3px;
+}
+.project-video .second button
+{
+    margin-left: 113px;
+    border-radius: 0;
+    background-color: #303F9F;
+    border: 5px solid #1A237E;
+}
+.project-video .second button:hover
+{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+/*end project video*/
+
+
+/*start customer project*/
+.customer-project
+{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.customer-project p:nth-child(1)
+{
+    text-transform: capitalize;
+    color: rgba(26, 35, 126,1.0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.customer-project .first-p
+{
+    text-transform: capitalize;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+    color: #9E9E9E;
+}
+.customer-project .pro
+{
+    margin-top: 25px;
+}
+.customer-project .pro .cst-pro
+{
+    border: 2px solid #1A237E;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    height: 250px;
+    background-color: #fff;
+}
+.customer-project .pro .cst-pro:nth-child(odd):hover
+{
+    transform: rotate(-45deg);
+    transition-timing-function: ease-out;
+    transition-duration:0.8s ;
+}
+.customer-project .pro .cst-pro:nth-child(even):hover
+{
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+    transition-duration:0.8s ;
+}
+.customer-project .pro .cst-pro .icon
+{
+    background-color: #303F9F;
+    border-radius: 50%;
+    width: 20%;
+    height: 39px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    position: relative;
+    top: 10px;
+}
+.customer-project .pro .cst-pro .icon i
+{
+    text-align: left;
+    display: block;
+    margin-left: 20px;
+    color: #fff;
+}
+.customer-project .pro .cst-pro h1
+{
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.customer-project .pro .cst-pro hr
+{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.customer-project .pro .cst-pro p
+{
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #9E9E9E;
+}
+
+.customer-project .pro .cst-pro .cst-one:hover
+{
+    background-image: linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)),url("../img/23.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;   
+    font-weight: bold;
+}
+
+.customer-project .pro .cst-pro .cst-two:hover
+{
+    background-image: linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)),url("../img/24.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;   
+    font-weight: bold;
+}
+.customer-project .pro .cst-pro .cst-three:hover
+{
+    background-image:linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)), url("../img/24.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;   
+    font-weight: bold;
+}
+
+.customer-project .pro .cst-pro .cst-four:hover
+{
+    background-image:linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)), url("../img/25.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;   
+    font-weight: bold;
+}
+
+.customer-project .pro .cst-pro .cst-five:hover
+{
+    background-image:linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)), url("../img/26.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px; 
+    font-weight: bold;  
+}
+
+.customer-project .pro .cst-pro .cst-six:hover
+{
+    background-image:linear-gradient(rgba(48, 63, 159,0.5),rgba(57, 73, 171,0.5)), url("../img/28.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 250px;   
+    font-weight: bold;
+}
+
+/*end customer project*/
+
+
+/*start project num*/
+
+.project-num
+{
+    background-image: linear-gradient(rgba(92, 107, 192,0.6),rgba(121, 134, 203,0.6)),url("../img/9.jpg");
+    height: 530px;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+.project-num .content-num
+{
+    margin-top: 100px;
+    margin-left: 52px;
+}
+.project-num .content-num .fir
+{
+    text-transform: capitalize;
+    color: rgba(26, 35, 126,1.0);
+    margin-bottom: 15px;
+}
+.project-num .content-num .fir-h1
+{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+.project-num .content-num .num-one
+{
+    border: 2px solid rgba(26, 35, 126,1.0);
+    border-radius: 30px;
+    display: inline-block;
+    width: 40%;
+    height:120px;
+    color: #fff;
+}
+
+.project-num .content-num .num-one .sec-h1
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.project-num .content-num .num-one i
+{
+    text-align: center;
+    display: block;
+    font-size: 25px;
+}
+.project-num .content-num .num-one:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.project-num .sec-two
+{
+    background-color: rgba(48, 63, 159,1.0);
+    height: 300px;
+    margin-top: 91px;
+    width: 46%;
+}
+.project-num .sec-two .two-img
+{
+    background-image: url(../img/11.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 90%;
+    width: 300px;
+    transform: translate(10px, 10px);
+}
+
+.project-num .sec-two .two-img:hover
+{
+    transform: rotateZ(45deg);
+
+    transition-timing-function: ease-in;
+
+    transition-duration: 0.8s;
+    border-radius: 30px;
+}
+/*end project num*/
+/*start our project*/
+.our-project
+{
+    margin-bottom: 90px;
+}
+.our-project .pro-p
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(26, 35, 126,1.0);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.our-project .pro-h1
+{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.our-project .first-project
+{
+    color: #fff;
+    height: 230px;
+    border: 3px solid rgba(26, 35, 126,1.0);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.our-project .first-project .fir-pro-img
+{
+    background-image: url("../img/14.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.our-project .first-project .second-pro-img
+{
+    background-image: url("../img/19.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.our-project .first-project .third-pro-img
+{
+    background-image: url("../img/16.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.our-project .first-project .forth-pro-img
+{
+    background-image: url("../img/17.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.our-project .first-project h1
+{
+    text-indent: 17px;
+    padding-top: 60px;
+    text-transform: capitalize;
+    
+}
+.our-project .first-project hr
+{
+    margin-left: 19px;
+    font-weight: bold;
+    margin-bottom: 19px;
+    
+}
+.our-project .first-project p
+{
+    margin-left: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.our-project .first-project:hover
+{
+    transform: skew(10deg, 10deg);
+    transition-timing-function: ease-in-out;
+    transition-duration:0.8s ;
+}
+.our-project button
+{
+    margin-left: 440px;
+    border-radius: 0;
+    background-color: #303F9F;
+    border: 5px solid #1A237E;
+}
+
+/*end our project*/
+
+/*start our info*/
+.info 
+{
+    margin-bottom: 100px;
+}
+.info  .info-image
+{
+    background-image:linear-gradient(rgba(92, 107, 192,0.6),rgba(121, 134, 203,0.6)) ,url("../img/22.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.info  .info-image .info-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.info  .info-image .info-content p
+{
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.info  .info-image .info-content h1
+{
+    text-transform: capitalize;
+    color: #fff;
+}
+/*end our info*/
+
+/*start contact us*/
+.contact .contact-content
+{
+    background-color: rgba(83, 109, 254,1.0);
+    height: 100px;
+    position: relative;
+    top: 55px;
+}
+.contact .contact-content .con-one
+{
+    margin-top: 22px;
+    margin-left: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.contact .contact-content .con-one h1
+{
+    margin-bottom: 5px;
+}
+.contact .contact-content .con-two
+{
+    margin-top: 38px;
+}
+.contact .contact-content .con-two .inp1
+{
+    width: 202px;
+    height: 24px;
+    text-indent: 7px;
+}
+.contact .contact-content .con-two .inp2
+{
+    width: 80px;
+    height: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/*end contact us*/
+
+/*start footer*/
+.footer
+{
+    background-color: rgba(26, 35, 126,1.0);
+
+}
+.footer .m
+{
+    margin-top: 180px;
+    color: #fff;
+}
+.footer .m .logo
+{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 18px;
+}
+.footer .m p
+{
+    text-transform: capitalize;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+.footer .m .s
+{
+    margin-right: 15px;
+    margin-bottom: 60px;
+}
+.footer .m h1
+{
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.footer .m .first-ul
+{
+    list-style: none;
+}
+.footer .m .first-ul li
+{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgba(48, 79, 254,1.0);
+}
+.footer .m .second-ul
+{
+    list-style: none;
+}
+.footer .m .second-ul li
+{
+    margin-bottom: 10px;
+}
+.footer .m .second-ul hr
+{
+    margin-bottom: 10px;
+}
+
+.footer .m .second-ul li i
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #0091EA;
+}
+.footer button
+{
+    position: relative;
+    left: 1080px;
+    top: -19px;
+    width: 80px;
+    height: 38px;
+    font-size: 30px;
+    background-color:#0091EA ;
+}
+.footer h2
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+/*end footer*/
